@@ -1,0 +1,227 @@
+	.coral-pixels-regular {
+		font-family: "Coral Pixels", serif;
+		font-size: 99px;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	.pixelify-sans-regular {
+		font-family: "Pixelify Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 500;
+		font-style: normal;
+	}
+
+	.tiny5-regular {
+		font-family: "Tiny5", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+body {
+	margin: 30px 50px 50px 30px;
+	font-family: "Helvetica",
+	"Segoe UI",
+	Tahoma,
+	sans-serif;
+	background-color: #999999;
+	background-image: linear-gradient(to top, #0842d3, #1eabcd, #82fee2, #ffffff);
+} 
+
+	a {
+		color: #11eefb;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: hotpink;
+	}
+
+/****************   Nav Section **********************/
+nav {
+	background-color: #0842d3;
+	font-size: 26px;
+	font-family: "Pixelify Sans", sans-serif;
+	border-radius: 10px;
+	color: #ffffff;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+/***********************  Footer Section   **************************/
+footer {
+	background-color: black;
+	box-shadow: 0 16px 32px -10px #11eefb;
+	font-family: "Pixelify Sans", sans-serif;
+	color: white;
+	font-size: 72px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	gap: 12px;
+}
+
+/*********** Splash Page ************************/
+header h1 {
+  font-family: "Coral Pixels", serif;
+  color:blue;
+	text-decoration: underline #bbecf1;
+	text-decoration-thickness: 8px;
+	text-shadow: 5px 5px #5bd9f9;
+
+	display: flex;
+	justify-content: center;
+  align-items: flex-end;
+}
+
+header img {
+	border-radius: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.address {
+	background-color: #5dcc3e;
+	font-size: 30px;
+	border-radius: 30px;
+	font-family: "Tiny5", sans-serif;
+	text-align: center;
+	color: green;
+	display: flex;
+	justify-content: center;
+}
+
+.tagline {
+	font-family: "Pixelify Sans", sans-serif;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+h2 {
+	font-family: "Coral Pixels", serif;
+	font-size: 56px;
+	text-shadow: 3px 4px #60daf9;
+}
+
+/************* Sections ********************/
+hr {
+	border: 2px solid #5bd9f9;
+}
+
+section h3 {
+	font-family: "Pixelify Sans", sans-serif;
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px red;
+}
+
+section dl {
+	display: grid;
+	font-family: "Tiny5", sans-serif;
+	font-size: 18px;
+
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+}
+
+section ul {
+	font-family: "Tiny5", sans-serif;
+	list-style-type: square;
+	font-size: 24px;
+	color: white;
+}
+
+section a {
+	background-color: #0842d3;
+	font-size: 26px;
+	font-family: "Pixelify Sans", sans-serif;
+	border-radius: 10px;
+	color: #11eefb;
+	text-decoration: none;
+}
+
+section a:hover {
+	color: hotpink;
+}
+
+/**************   Projects   *****************/
+.three-col {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+	gap: 10px;
+	margin-bottom: 50px;
+}
+
+.card img {
+	border-radius: 10px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  background-color:black;
+
+	box-shadow: 0 16px 32px -10px #11eefb;
+	border-radius: 5px;
+}
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+  nav, .three-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .three-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  footer {
+    font-size: 32px;
+  }
+
+	.three-col {
+    display: grid;
+    grid-template-columns: 1fr;
+		justify-items: center;
+	}
+}
+
+/**************   Contact Page   *****************/
+.one-col {
+	font-family: "Pixelify Sans", sans-serif;
+	color: #0842d3;
+	font-size: 32px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 15px;
+}
+
+input {
+	font-family: "Pixelify Sans", sans-serif;
+	width: 60%;
+	font-size: 32px;
+	color: #0842d3;
+
+	margin: auto;
+}
+
+textarea {
+	font-family: "Tiny5", sans-serif;
+	color: #0842d3;
+	width: 80%;
+	margin: auto;
+}
