@@ -106,8 +106,11 @@ header img {
 
 h2 {
 	font-family: "Coral Pixels", serif;
-	font-size: 56px;
-	text-shadow: 3px 4px #60daf9;
+	font-size: 64px;
+	text-shadow: 3px 4px #5bd9f9;
+	text-decoration: underline;
+	text-decoration-thickness: 10px;
+	text-decoration-color: #3f0e74;
 }
 
 /************* Sections ********************/
@@ -117,9 +120,9 @@ hr {
 
 section h3 {
 	font-family: "Pixelify Sans", sans-serif;
-	font-size: 30px;
+	font-size: 40px;
 	color: white;
-	text-shadow: 2px 2px red;
+	text-shadow: 3px 4px red;
 }
 
 section dl {
